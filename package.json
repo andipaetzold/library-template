@@ -1,0 +1,16 @@
+{
+  "name": "library-template",
+  "version": "0.0.0",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.esm.json"
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "1.0.1",
+    "typescript": "4.6.4"
+  }
+}
